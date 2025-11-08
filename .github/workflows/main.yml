@@ -30,7 +30,7 @@ jobs:
       # Step 4: Run tests
       - name: Run Tests
         run: |
-          pytest tests/ --maxfail=1 --disable-warnings -q
+          pytest --maxfail=1 --disable-warnings -q
 
       # Step 5: Print success message
       - name: Print Success Message
